@@ -1,0 +1,9 @@
+".\Objects\main.obj",
+".\Objects\GPIO.obj",
+".\Objects\NVIC.obj",
+".\Objects\UART.obj",
+".\Objects\Delay.obj",
+".\Objects\UART_Isr.obj" 
+TO ".\Objects\pj" 
+PRINT(".\Listings\pj.m51") RAMSIZE(256) 
+DISABLEWARNING (16) 
